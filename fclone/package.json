@@ -1,0 +1,39 @@
+{
+  "name": "fclone",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "gen": "graphql-codegen --config codegen.yml"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^1.6.3",
+    "@emotion/react": "^11",
+    "@emotion/styled": "^11",
+    "@heroicons/react": "^1.0.1",
+    "formik": "^2.2.9",
+    "framer-motion": "^4",
+    "graphql": "^15.5.0",
+    "next": "10.2.3",
+    "next-auth": "^3.27.0",
+    "passport": "^0.4.1",
+    "passport-facebook": "^3.0.0",
+    "query-string": "^7.0.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "urql": "^2.0.3"
+  },
+  "devDependencies": {
+    "@graphql-codegen/cli": "1.21.5",
+    "@graphql-codegen/typescript": "1.22.1",
+    "@graphql-codegen/typescript-operations": "1.18.0",
+    "@graphql-codegen/typescript-react-apollo": "2.2.5",
+    "@graphql-codegen/typescript-urql": "^2.0.7",
+    "autoprefixer": "^10.2.6",
+    "postcss": "^8.3.0",
+    "tailwindcss": "^2.1.2",
+    "typescript": "^4.3.2"
+  }
+}
